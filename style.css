@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+body{
+    margin: 100px 0 0 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-image: none;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+header>img{
+    height: 50px;
+
+}
+header>nav>ul {
+
+}
+header>nav>ul a{
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+    text-decoration-color: white;
+    color: white;
+
+}
+header>nav>ul p{
+    font-size: 40px; 
+}
+.logo{
+    color: white;
+    font-size: 40px;
+}
+
+.polosa{
+    background-color: black;
+    height: 1px;
+    width: 100%;
+    align-items: center;
+}
+header>nav>ul c{  
+    color: white;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border-radius: 30px;
+    text-decoration: none;
+    padding-right: 20px;
+    margin-right: 50px;
+
+}
+.dw{
+    background-color: red;
+    font-size: 40px;
+    height: 100px;
+    justify-content: space-around;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    
+    flex-direction: column;
+}
+main>div>ul h2{
+    padding-right: 550px;
+    padding-left: 40px;
+}
+.top10{
+}
+.top10 h1{
+    padding-top: 70px;
+}
+.top10 p,h2{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
